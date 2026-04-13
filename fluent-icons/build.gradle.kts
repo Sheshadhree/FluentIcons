@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "com.sheshadhree"
-version = "1.0.1"
+version = "1.0.2"
 
 android {
     namespace = "com.sheshu.fluenticons"
@@ -45,6 +45,7 @@ android {
 }
 
 dependencies {
+    compileOnly("org.jetbrains.kotlin:kotlin-stdlib:2.0.21")
     implementation("androidx.core:core-ktx:1.17.0")
     implementation("androidx.appcompat:appcompat:1.7.1")
     implementation(platform("androidx.compose:compose-bom:2025.09.00"))
@@ -58,12 +59,8 @@ publishing {
             name = "GitHubPackages"
             url = uri("https://maven.pkg.github.com/sheshadhree/FluentIcons")
             credentials {
-                username = providers.gradleProperty("gpr.user").orElse(
-                    providers.environmentVariable("GITHUB_ACTOR")
-                ).get()
-                password = providers.gradleProperty("gpr.key").orElse(
-                    providers.environmentVariable("GITHUB_TOKEN")
-                ).get()
+                username = providers.gradleProperty("gpr.user").orNull ?: System.getenv("GITHUB_ACTOR")
+                password = providers.gradleProperty("gpr.key").orNull ?: System.getenv("GITHUB_TOKEN")
             }
         }
     }
@@ -76,7 +73,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.sheshadhree"
                 artifactId = "fluent-icons"
-                version = "1.0.1"
+                version = "1.0.2"
             }
         }
     }
