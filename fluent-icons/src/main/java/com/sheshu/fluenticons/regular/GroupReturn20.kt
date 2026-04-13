@@ -1,0 +1,105 @@
+package com.sheshu.fluenticons.regular
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+import com.sheshu.fluenticons.FluentIcons
+
+public val FluentIcons.Regular.GroupReturn20: ImageVector by lazy(LazyThreadSafetyMode.NONE) {
+    ImageVector.Builder(
+        name = "Regular.GroupReturn20",
+        defaultWidth = 20.dp,
+        defaultHeight = 20.dp,
+        viewportWidth = 20f,
+        viewportHeight = 20f
+    ).apply {
+        path(fill = SolidColor(Color.Black)) {
+            moveTo(7f, 4.5f)
+            curveTo(7f, 4.671f, 6.983f, 4.838f, 6.95f, 5f)
+            horizontalLineTo(10f)
+            curveToRelative(0.552f, 0f, 1f, 0.448f, 1f, 1f)
+            verticalLineToRelative(2f)
+            horizontalLineToRelative(-1f)
+            curveTo(9.493f, 8f, 9.03f, 8.189f, 8.677f, 8.5f)
+            curveTo(8.614f, 8.555f, 8.555f, 8.614f, 8.5f, 8.677f)
+            curveTo(8.189f, 9.03f, 8f, 9.493f, 8f, 10f)
+            verticalLineToRelative(1f)
+            horizontalLineTo(6f)
+            curveToRelative(-0.552f, 0f, -1f, -0.448f, -1f, -1f)
+            verticalLineTo(6.95f)
+            curveTo(4.838f, 6.983f, 4.671f, 7f, 4.5f, 7f)
+            curveTo(4.329f, 7f, 4.162f, 6.983f, 4f, 6.95f)
+            verticalLineTo(10f)
+            curveToRelative(0f, 1.105f, 0.895f, 2f, 2f, 2f)
+            horizontalLineToRelative(2f)
+            verticalLineToRelative(2f)
+            curveToRelative(0f, 0.507f, 0.189f, 0.97f, 0.5f, 1.323f)
+            curveToRelative(0.182f, 0.206f, 0.406f, 0.374f, 0.658f, 0.492f)
+            curveTo(9.055f, 15.393f, 9f, 14.953f, 9f, 14.5f)
+            curveToRelative(0f, -0.118f, 0.004f, -0.235f, 0.011f, -0.351f)
+            curveTo(9.004f, 14.1f, 9f, 14.051f, 9f, 14f)
+            verticalLineToRelative(-4f)
+            curveToRelative(0f, -0.552f, 0.448f, -1f, 1f, -1f)
+            horizontalLineToRelative(4f)
+            curveToRelative(0.05f, 0f, 0.1f, 0.004f, 0.149f, 0.011f)
+            curveTo(14.265f, 9.004f, 14.382f, 9f, 14.5f, 9f)
+            curveToRelative(0.453f, 0f, 0.893f, 0.055f, 1.315f, 0.158f)
+            curveToRelative(-0.118f, -0.252f, -0.286f, -0.476f, -0.492f, -0.658f)
+            curveTo(14.97f, 8.189f, 14.507f, 8f, 14f, 8f)
+            horizontalLineToRelative(-2f)
+            verticalLineTo(6f)
+            curveToRelative(0f, -1.105f, -0.895f, -2f, -2f, -2f)
+            horizontalLineTo(6.95f)
+            curveTo(6.983f, 4.162f, 7f, 4.329f, 7f, 4.5f)
+            close()
+            moveToRelative(-1f, 0f)
+            curveTo(6f, 5.328f, 5.328f, 6f, 4.5f, 6f)
+            reflectiveCurveTo(3f, 5.328f, 3f, 4.5f)
+            reflectiveCurveTo(3.672f, 3f, 4.5f, 3f)
+            reflectiveCurveTo(6f, 3.672f, 6f, 4.5f)
+            close()
+            moveToRelative(11f, 0f)
+            curveTo(17f, 5.328f, 16.328f, 6f, 15.5f, 6f)
+            reflectiveCurveTo(14f, 5.328f, 14f, 4.5f)
+            reflectiveCurveTo(14.672f, 3f, 15.5f, 3f)
+            reflectiveCurveTo(17f, 3.672f, 17f, 4.5f)
+            close()
+            moveToRelative(-11f, 11f)
+            curveTo(6f, 16.328f, 5.328f, 17f, 4.5f, 17f)
+            reflectiveCurveTo(3f, 16.328f, 3f, 15.5f)
+            reflectiveCurveTo(3.672f, 14f, 4.5f, 14f)
+            reflectiveCurveTo(6f, 14.672f, 6f, 15.5f)
+            close()
+            moveToRelative(8.5f, 3.5f)
+            curveToRelative(2.485f, 0f, 4.5f, -2.015f, 4.5f, -4.5f)
+            reflectiveCurveTo(16.985f, 10f, 14.5f, 10f)
+            reflectiveCurveTo(10f, 12.015f, 10f, 14.5f)
+            reflectiveCurveToRelative(2.015f, 4.5f, 4.5f, 4.5f)
+            close()
+            moveToRelative(-0.896f, -6.396f)
+            lineTo(12.707f, 13.5f)
+            horizontalLineToRelative(1.543f)
+            curveToRelative(1.519f, 0f, 2.75f, 1.231f, 2.75f, 2.75f)
+            verticalLineToRelative(0.25f)
+            curveToRelative(0f, 0.276f, -0.224f, 0.5f, -0.5f, 0.5f)
+            reflectiveCurveTo(16f, 16.776f, 16f, 16.5f)
+            verticalLineToRelative(-0.25f)
+            curveToRelative(0f, -0.966f, -0.784f, -1.75f, -1.75f, -1.75f)
+            horizontalLineToRelative(-1.543f)
+            lineToRelative(0.897f, 0.896f)
+            curveToRelative(0.195f, 0.196f, 0.195f, 0.512f, 0f, 0.708f)
+            curveToRelative(-0.196f, 0.195f, -0.512f, 0.195f, -0.708f, 0f)
+            lineToRelative(-1.752f, -1.753f)
+            curveToRelative(-0.047f, -0.047f, -0.082f, -0.102f, -0.106f, -0.16f)
+            curveTo(11.014f, 14.132f, 11f, 14.068f, 11f, 14f)
+            reflectiveCurveToRelative(0.014f, -0.132f, 0.038f, -0.191f)
+            curveToRelative(0.024f, -0.06f, 0.06f, -0.115f, 0.108f, -0.163f)
+            lineToRelative(1.75f, -1.75f)
+            curveToRelative(0.196f, -0.195f, 0.512f, -0.195f, 0.708f, 0f)
+            curveToRelative(0.195f, 0.196f, 0.195f, 0.512f, 0f, 0.708f)
+            close()
+        }
+    }.build()
+}

@@ -1,0 +1,59 @@
+package com.sheshu.fluenticons.filled
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+import com.sheshu.fluenticons.FluentIcons
+
+public val FluentIcons.Filled.TableInsertColumn20: ImageVector by lazy(LazyThreadSafetyMode.NONE) {
+    ImageVector.Builder(
+        name = "Filled.TableInsertColumn20",
+        defaultWidth = 20.dp,
+        defaultHeight = 20.dp,
+        viewportWidth = 20f,
+        viewportHeight = 20f
+    ).apply {
+        path(fill = SolidColor(Color.Black)) {
+            moveTo(4f, 3.5f)
+            curveTo(4f, 3.224f, 3.776f, 3f, 3.5f, 3f)
+            reflectiveCurveTo(3f, 3.224f, 3f, 3.5f)
+            verticalLineToRelative(13f)
+            curveTo(3f, 16.776f, 3.224f, 17f, 3.5f, 17f)
+            reflectiveCurveTo(4f, 16.776f, 4f, 16.5f)
+            verticalLineToRelative(-13f)
+            close()
+            moveToRelative(13f, 0f)
+            curveTo(17f, 3.224f, 16.776f, 3f, 16.5f, 3f)
+            reflectiveCurveTo(16f, 3.224f, 16f, 3.5f)
+            verticalLineToRelative(13f)
+            curveToRelative(0f, 0.276f, 0.224f, 0.5f, 0.5f, 0.5f)
+            reflectiveCurveToRelative(0.5f, -0.224f, 0.5f, -0.5f)
+            verticalLineToRelative(-13f)
+            close()
+            moveTo(9f, 3f)
+            curveTo(7.895f, 3f, 7f, 3.895f, 7f, 5f)
+            verticalLineToRelative(2f)
+            horizontalLineToRelative(6f)
+            verticalLineTo(5f)
+            curveToRelative(0f, -1.105f, -0.895f, -2f, -2f, -2f)
+            horizontalLineTo(9f)
+            close()
+            moveToRelative(-2f, 9f)
+            verticalLineTo(8f)
+            horizontalLineToRelative(6f)
+            verticalLineToRelative(4f)
+            horizontalLineTo(7f)
+            close()
+            moveToRelative(0f, 1f)
+            horizontalLineToRelative(6f)
+            verticalLineToRelative(2f)
+            curveToRelative(0f, 1.105f, -0.895f, 2f, -2f, 2f)
+            horizontalLineTo(9f)
+            curveToRelative(-1.105f, 0f, -2f, -0.895f, -2f, -2f)
+            verticalLineToRelative(-2f)
+            close()
+        }
+    }.build()
+}

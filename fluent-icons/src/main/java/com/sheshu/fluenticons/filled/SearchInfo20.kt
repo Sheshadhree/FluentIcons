@@ -1,0 +1,47 @@
+package com.sheshu.fluenticons.filled
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+import com.sheshu.fluenticons.FluentIcons
+
+public val FluentIcons.Filled.SearchInfo20: ImageVector by lazy(LazyThreadSafetyMode.NONE) {
+    ImageVector.Builder(
+        name = "Filled.SearchInfo20",
+        defaultWidth = 20.dp,
+        defaultHeight = 20.dp,
+        viewportWidth = 20f,
+        viewportHeight = 20f
+    ).apply {
+        path(fill = SolidColor(Color.Black)) {
+            moveTo(12.73f, 13.436f)
+            curveTo(11.591f, 14.411f, 10.114f, 15f, 8.5f, 15f)
+            curveTo(4.91f, 15f, 2f, 12.09f, 2f, 8.5f)
+            reflectiveCurveTo(4.91f, 2f, 8.5f, 2f)
+            reflectiveCurveTo(15f, 4.91f, 15f, 8.5f)
+            curveToRelative(0f, 1.615f, -0.589f, 3.092f, -1.564f, 4.23f)
+            lineToRelative(3.418f, 3.416f)
+            curveToRelative(0.195f, 0.196f, 0.195f, 0.512f, 0f, 0.708f)
+            curveToRelative(-0.174f, 0.173f, -0.444f, 0.192f, -0.638f, 0.057f)
+            lineToRelative(-0.07f, -0.057f)
+            lineToRelative(-3.417f, -3.418f)
+            close()
+            moveTo(8.5f, 7.5f)
+            curveTo(8.224f, 7.5f, 8f, 7.724f, 8f, 8f)
+            verticalLineToRelative(3f)
+            curveToRelative(0f, 0.276f, 0.224f, 0.5f, 0.5f, 0.5f)
+            reflectiveCurveTo(9f, 11.276f, 9f, 11f)
+            verticalLineTo(8f)
+            curveToRelative(0f, -0.276f, -0.224f, -0.5f, -0.5f, -0.5f)
+            close()
+            moveToRelative(0f, -1f)
+            curveToRelative(0.414f, 0f, 0.75f, -0.336f, 0.75f, -0.75f)
+            reflectiveCurveTo(8.914f, 5f, 8.5f, 5f)
+            reflectiveCurveTo(7.75f, 5.336f, 7.75f, 5.75f)
+            reflectiveCurveTo(8.086f, 6.5f, 8.5f, 6.5f)
+            close()
+        }
+    }.build()
+}

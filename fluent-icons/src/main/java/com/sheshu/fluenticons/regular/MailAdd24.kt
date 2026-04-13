@@ -1,0 +1,77 @@
+package com.sheshu.fluenticons.regular
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+import com.sheshu.fluenticons.FluentIcons
+
+public val FluentIcons.Regular.MailAdd24: ImageVector by lazy(LazyThreadSafetyMode.NONE) {
+    ImageVector.Builder(
+        name = "Regular.MailAdd24",
+        defaultWidth = 24.dp,
+        defaultHeight = 24.dp,
+        viewportWidth = 24f,
+        viewportHeight = 24f
+    ).apply {
+        path(fill = SolidColor(Color.Black)) {
+            moveTo(23f, 6.5f)
+            curveTo(23f, 3.462f, 20.538f, 1f, 17.5f, 1f)
+            reflectiveCurveTo(12f, 3.462f, 12f, 6.5f)
+            reflectiveCurveToRelative(2.462f, 5.5f, 5.5f, 5.5f)
+            reflectiveCurveTo(23f, 9.538f, 23f, 6.5f)
+            close()
+            moveTo(18f, 7f)
+            lineToRelative(0.001f, 2.504f)
+            curveToRelative(0f, 0.276f, -0.224f, 0.5f, -0.5f, 0.5f)
+            reflectiveCurveToRelative(-0.5f, -0.224f, -0.5f, -0.5f)
+            verticalLineTo(7f)
+            horizontalLineToRelative(-2.505f)
+            curveToRelative(-0.276f, 0f, -0.5f, -0.224f, -0.5f, -0.5f)
+            reflectiveCurveTo(14.22f, 6f, 14.496f, 6f)
+            horizontalLineTo(17f)
+            verticalLineTo(3.5f)
+            curveTo(17f, 3.222f, 17.224f, 3f, 17.5f, 3f)
+            reflectiveCurveTo(18f, 3.222f, 18f, 3.5f)
+            verticalLineTo(6f)
+            horizontalLineToRelative(2.497f)
+            curveToRelative(0.276f, 0f, 0.5f, 0.224f, 0.5f, 0.5f)
+            reflectiveCurveTo(20.772f, 7f, 20.496f, 7f)
+            horizontalLineTo(18f)
+            close()
+            moveToRelative(2.5f, 9.75f)
+            verticalLineToRelative(-4.482f)
+            curveToRelative(0.551f, -0.287f, 1.056f, -0.651f, 1.5f, -1.078f)
+            verticalLineToRelative(5.56f)
+            curveToRelative(0f, 1.733f, -1.357f, 3.15f, -3.066f, 3.245f)
+            lineTo(18.75f, 20f)
+            horizontalLineTo(5.25f)
+            curveToRelative(-1.733f, 0f, -3.15f, -1.357f, -3.245f, -3.066f)
+            lineTo(2f, 16.75f)
+            verticalLineToRelative(-9.5f)
+            curveTo(2f, 5.517f, 3.357f, 4.1f, 5.066f, 4.005f)
+            lineTo(5.25f, 4f)
+            horizontalLineToRelative(6.248f)
+            curveToRelative(-0.198f, 0.474f, -0.34f, 0.977f, -0.422f, 1.5f)
+            horizontalLineTo(5.25f)
+            curveToRelative(-0.918f, 0f, -1.671f, 0.707f, -1.744f, 1.606f)
+            lineTo(3.5f, 7.25f)
+            verticalLineToRelative(0.429f)
+            lineToRelative(8.5f, 4.473f)
+            lineToRelative(1.305f, -0.687f)
+            curveToRelative(0.439f, 0.371f, 0.927f, 0.685f, 1.454f, 0.93f)
+            lineToRelative(-2.41f, 1.269f)
+            curveToRelative(-0.187f, 0.098f, -0.406f, 0.112f, -0.602f, 0.042f)
+            lineToRelative(-0.096f, -0.042f)
+            lineTo(3.5f, 9.374f)
+            verticalLineToRelative(7.376f)
+            curveToRelative(0f, 0.918f, 0.707f, 1.671f, 1.606f, 1.744f)
+            lineTo(5.25f, 18.5f)
+            horizontalLineToRelative(13.5f)
+            curveToRelative(0.918f, 0f, 1.671f, -0.707f, 1.744f, -1.607f)
+            lineTo(20.5f, 16.75f)
+            close()
+        }
+    }.build()
+}

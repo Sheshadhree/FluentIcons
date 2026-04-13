@@ -1,0 +1,48 @@
+package com.sheshu.fluenticons.filled
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+import com.sheshu.fluenticons.FluentIcons
+
+public val FluentIcons.Filled.Chat12: ImageVector by lazy(LazyThreadSafetyMode.NONE) {
+    ImageVector.Builder(
+        name = "Filled.Chat12",
+        defaultWidth = 12.dp,
+        defaultHeight = 12.dp,
+        viewportWidth = 12f,
+        viewportHeight = 12f
+    ).apply {
+        path(fill = SolidColor(Color.Black)) {
+            moveTo(1f, 6f)
+            curveToRelative(0f, -2.761f, 2.239f, -5f, 5f, -5f)
+            reflectiveCurveToRelative(5f, 2.239f, 5f, 5f)
+            reflectiveCurveToRelative(-2.239f, 5f, -5f, 5f)
+            curveToRelative(-0.873f, 0f, -1.694f, -0.224f, -2.41f, -0.618f)
+            lineToRelative(-1.944f, 0.592f)
+            curveToRelative(-0.177f, 0.054f, -0.369f, 0.006f, -0.5f, -0.125f)
+            curveToRelative(-0.13f, -0.13f, -0.178f, -0.322f, -0.124f, -0.499f)
+            lineToRelative(0.592f, -1.947f)
+            curveTo(1.223f, 7.689f, 1f, 6.87f, 1f, 6f)
+            close()
+            moveToRelative(3f, -0.5f)
+            curveTo(4f, 5.776f, 4.224f, 6f, 4.5f, 6f)
+            horizontalLineToRelative(3f)
+            curveTo(7.776f, 6f, 8f, 5.776f, 8f, 5.5f)
+            reflectiveCurveTo(7.776f, 5f, 7.5f, 5f)
+            horizontalLineToRelative(-3f)
+            curveTo(4.224f, 5f, 4f, 5.224f, 4f, 5.5f)
+            close()
+            moveTo(4.5f, 7f)
+            curveTo(4.224f, 7f, 4f, 7.224f, 4f, 7.5f)
+            reflectiveCurveTo(4.224f, 8f, 4.5f, 8f)
+            horizontalLineToRelative(2f)
+            curveTo(6.776f, 8f, 7f, 7.776f, 7f, 7.5f)
+            reflectiveCurveTo(6.776f, 7f, 6.5f, 7f)
+            horizontalLineToRelative(-2f)
+            close()
+        }
+    }.build()
+}

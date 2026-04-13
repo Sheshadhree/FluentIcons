@@ -1,0 +1,43 @@
+package com.sheshu.fluenticons.regular
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+import com.sheshu.fluenticons.FluentIcons
+
+public val FluentIcons.Regular.Shield16: ImageVector by lazy(LazyThreadSafetyMode.NONE) {
+    ImageVector.Builder(
+        name = "Regular.Shield16",
+        defaultWidth = 16.dp,
+        defaultHeight = 16.dp,
+        viewportWidth = 16f,
+        viewportHeight = 16f
+    ).apply {
+        path(fill = SolidColor(Color.Black)) {
+            moveTo(7.647f, 2.146f)
+            curveToRelative(0.196f, -0.195f, 0.512f, -0.195f, 0.708f, 0f)
+            curveTo(9.595f, 3.39f, 10.969f, 4f, 12.5f, 4f)
+            curveTo(12.776f, 4f, 13f, 4.224f, 13f, 4.5f)
+            verticalLineToRelative(3.001f)
+            curveToRelative(0f, 3.219f, -1.641f, 5.407f, -4.842f, 6.473f)
+            curveToRelative(-0.102f, 0.035f, -0.213f, 0.035f, -0.316f, 0f)
+            curveTo(4.642f, 12.908f, 3f, 10.72f, 3f, 7.501f)
+            verticalLineTo(4.5f)
+            curveTo(3f, 4.224f, 3.224f, 4f, 3.5f, 4f)
+            curveToRelative(1.53f, 0f, 2.904f, -0.611f, 4.147f, -1.854f)
+            close()
+            moveTo(8f, 3.19f)
+            curveTo(6.814f, 4.255f, 5.48f, 4.87f, 4f, 4.981f)
+            verticalLineToRelative(2.52f)
+            curveToRelative(0f, 1.434f, 0.363f, 2.564f, 1.021f, 3.444f)
+            curveTo(5.66f, 11.797f, 6.63f, 12.488f, 8f, 12.972f)
+            curveToRelative(1.37f, -0.483f, 2.341f, -1.175f, 2.979f, -2.027f)
+            curveTo(11.637f, 10.065f, 12f, 8.935f, 12f, 7.501f)
+            verticalLineToRelative(-2.52f)
+            curveTo(10.52f, 4.87f, 9.185f, 4.255f, 8f, 3.19f)
+            close()
+        }
+    }.build()
+}

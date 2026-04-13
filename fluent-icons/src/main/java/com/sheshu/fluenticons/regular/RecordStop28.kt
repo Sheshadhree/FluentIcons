@@ -1,0 +1,43 @@
+package com.sheshu.fluenticons.regular
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+import com.sheshu.fluenticons.FluentIcons
+
+public val FluentIcons.Regular.RecordStop28: ImageVector by lazy(LazyThreadSafetyMode.NONE) {
+    ImageVector.Builder(
+        name = "Regular.RecordStop28",
+        defaultWidth = 28.dp,
+        defaultHeight = 28.dp,
+        viewportWidth = 28f,
+        viewportHeight = 28f
+    ).apply {
+        path(fill = SolidColor(Color.Black)) {
+            moveTo(14f, 3.5f)
+            curveTo(8.201f, 3.5f, 3.5f, 8.201f, 3.5f, 14f)
+            reflectiveCurveTo(8.201f, 24.5f, 14f, 24.5f)
+            reflectiveCurveTo(24.5f, 19.799f, 24.5f, 14f)
+            reflectiveCurveTo(19.799f, 3.5f, 14f, 3.5f)
+            close()
+            moveTo(2f, 14f)
+            curveTo(2f, 7.373f, 7.373f, 2f, 14f, 2f)
+            reflectiveCurveToRelative(12f, 5.373f, 12f, 12f)
+            reflectiveCurveToRelative(-5.373f, 12f, -12f, 12f)
+            reflectiveCurveTo(2f, 20.627f, 2f, 14f)
+            close()
+            moveToRelative(7f, -3.5f)
+            curveTo(9f, 9.672f, 9.672f, 9f, 10.5f, 9f)
+            horizontalLineToRelative(7f)
+            curveToRelative(0.828f, 0f, 1.5f, 0.672f, 1.5f, 1.5f)
+            verticalLineToRelative(7f)
+            curveToRelative(0f, 0.828f, -0.672f, 1.5f, -1.5f, 1.5f)
+            horizontalLineToRelative(-7f)
+            curveTo(9.672f, 19f, 9f, 18.328f, 9f, 17.5f)
+            verticalLineToRelative(-7f)
+            close()
+        }
+    }.build()
+}

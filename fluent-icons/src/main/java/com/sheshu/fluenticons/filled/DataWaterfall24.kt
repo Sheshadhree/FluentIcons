@@ -1,0 +1,41 @@
+package com.sheshu.fluenticons.filled
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+import com.sheshu.fluenticons.FluentIcons
+
+public val FluentIcons.Filled.DataWaterfall24: ImageVector by lazy(LazyThreadSafetyMode.NONE) {
+    ImageVector.Builder(
+        name = "Filled.DataWaterfall24",
+        defaultWidth = 24.dp,
+        defaultHeight = 24.dp,
+        viewportWidth = 24f,
+        viewportHeight = 24f
+    ).apply {
+        path(fill = SolidColor(Color.Black)) {
+            moveTo(2.75f, 3f)
+            curveTo(2.336f, 3f, 2f, 3.336f, 2f, 3.75f)
+            reflectiveCurveTo(2.336f, 4.5f, 2.75f, 4.5f)
+            horizontalLineTo(4f)
+            verticalLineToRelative(5.75f)
+            curveToRelative(0f, 1.243f, 1.007f, 2.25f, 2.25f, 2.25f)
+            horizontalLineToRelative(6.25f)
+            verticalLineToRelative(6.25f)
+            curveToRelative(0f, 1.243f, 1.007f, 2.25f, 2.25f, 2.25f)
+            horizontalLineToRelative(6.5f)
+            curveToRelative(0.414f, 0f, 0.75f, -0.336f, 0.75f, -0.75f)
+            reflectiveCurveToRelative(-0.336f, -0.75f, -0.75f, -0.75f)
+            horizontalLineTo(20f)
+            verticalLineToRelative(-6.25f)
+            curveToRelative(0f, -1.243f, -1.007f, -2.25f, -2.25f, -2.25f)
+            horizontalLineTo(11.5f)
+            verticalLineTo(5.25f)
+            curveTo(11.5f, 4.007f, 10.493f, 3f, 9.25f, 3f)
+            horizontalLineToRelative(-6.5f)
+            close()
+        }
+    }.build()
+}

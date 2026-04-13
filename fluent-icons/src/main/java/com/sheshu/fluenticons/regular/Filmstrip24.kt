@@ -1,0 +1,89 @@
+package com.sheshu.fluenticons.regular
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+import com.sheshu.fluenticons.FluentIcons
+
+public val FluentIcons.Regular.Filmstrip24: ImageVector by lazy(LazyThreadSafetyMode.NONE) {
+    ImageVector.Builder(
+        name = "Regular.Filmstrip24",
+        defaultWidth = 24.dp,
+        defaultHeight = 24.dp,
+        viewportWidth = 24f,
+        viewportHeight = 24f
+    ).apply {
+        path(fill = SolidColor(Color.Black)) {
+            moveTo(2f, 7.25f)
+            curveTo(2f, 5.455f, 3.455f, 4f, 5.25f, 4f)
+            horizontalLineToRelative(13.5f)
+            curveTo(20.545f, 4f, 22f, 5.455f, 22f, 7.25f)
+            verticalLineToRelative(9.5f)
+            curveToRelative(0f, 1.795f, -1.455f, 3.25f, -3.25f, 3.25f)
+            horizontalLineTo(5.25f)
+            curveTo(3.455f, 20f, 2f, 18.545f, 2f, 16.75f)
+            verticalLineToRelative(-9.5f)
+            close()
+            moveTo(5.25f, 5.5f)
+            curveTo(4.284f, 5.5f, 3.5f, 6.284f, 3.5f, 7.25f)
+            verticalLineToRelative(9.5f)
+            curveToRelative(0f, 0.966f, 0.784f, 1.75f, 1.75f, 1.75f)
+            horizontalLineToRelative(13.5f)
+            curveToRelative(0.966f, 0f, 1.75f, -0.784f, 1.75f, -1.75f)
+            verticalLineToRelative(-9.5f)
+            curveToRelative(0f, -0.966f, -0.784f, -1.75f, -1.75f, -1.75f)
+            horizontalLineTo(5.25f)
+            close()
+            moveTo(17.5f, 7.75f)
+            curveTo(17.5f, 7.336f, 17.836f, 7f, 18.25f, 7f)
+            reflectiveCurveTo(19f, 7.336f, 19f, 7.75f)
+            verticalLineToRelative(0.5f)
+            curveTo(19f, 8.664f, 18.664f, 9f, 18.25f, 9f)
+            reflectiveCurveTo(17.5f, 8.664f, 17.5f, 8.25f)
+            verticalLineToRelative(-0.5f)
+            close()
+            moveTo(18.25f, 15f)
+            curveToRelative(-0.414f, 0f, -0.75f, 0.336f, -0.75f, 0.75f)
+            verticalLineToRelative(0.5f)
+            curveToRelative(0f, 0.414f, 0.336f, 0.75f, 0.75f, 0.75f)
+            reflectiveCurveTo(19f, 16.664f, 19f, 16.25f)
+            verticalLineToRelative(-0.5f)
+            curveToRelative(0f, -0.414f, -0.336f, -0.75f, -0.75f, -0.75f)
+            close()
+            moveToRelative(-0.75f, -3.25f)
+            curveToRelative(0f, -0.414f, 0.336f, -0.75f, 0.75f, -0.75f)
+            reflectiveCurveTo(19f, 11.336f, 19f, 11.75f)
+            verticalLineToRelative(0.5f)
+            curveToRelative(0f, 0.414f, -0.336f, 0.75f, -0.75f, 0.75f)
+            reflectiveCurveToRelative(-0.75f, -0.336f, -0.75f, -0.75f)
+            verticalLineToRelative(-0.5f)
+            close()
+            moveTo(5.75f, 7f)
+            curveTo(5.336f, 7f, 5f, 7.336f, 5f, 7.75f)
+            verticalLineToRelative(0.5f)
+            curveTo(5f, 8.664f, 5.336f, 9f, 5.75f, 9f)
+            reflectiveCurveTo(6.5f, 8.664f, 6.5f, 8.25f)
+            verticalLineToRelative(-0.5f)
+            curveTo(6.5f, 7.336f, 6.164f, 7f, 5.75f, 7f)
+            close()
+            moveTo(5f, 15.75f)
+            curveTo(5f, 15.336f, 5.336f, 15f, 5.75f, 15f)
+            reflectiveCurveToRelative(0.75f, 0.336f, 0.75f, 0.75f)
+            verticalLineToRelative(0.5f)
+            curveTo(6.5f, 16.664f, 6.164f, 17f, 5.75f, 17f)
+            reflectiveCurveTo(5f, 16.664f, 5f, 16.25f)
+            verticalLineToRelative(-0.5f)
+            close()
+            moveTo(5.75f, 11f)
+            curveTo(5.336f, 11f, 5f, 11.336f, 5f, 11.75f)
+            verticalLineToRelative(0.5f)
+            curveTo(5f, 12.664f, 5.336f, 13f, 5.75f, 13f)
+            reflectiveCurveToRelative(0.75f, -0.336f, 0.75f, -0.75f)
+            verticalLineToRelative(-0.5f)
+            curveTo(6.5f, 11.336f, 6.164f, 11f, 5.75f, 11f)
+            close()
+        }
+    }.build()
+}
