@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "com.sheshadhree"
-version = "1.0.0"
+version = "1.0.1"
 
 android {
     namespace = "com.sheshu.fluenticons"
@@ -76,7 +76,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.sheshadhree"
                 artifactId = "fluent-icons"
-                version = "1.0.0"
+                version = "1.0.1"
             }
         }
     }
