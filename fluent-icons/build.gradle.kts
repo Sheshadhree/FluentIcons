@@ -1,11 +1,12 @@
 plugins {
-    alias(libs.plugins.android.library)
-    alias(libs.plugins.kotlin.compose)
+    id("com.android.library")
+    id("kotlin-android")
+    id("org.jetbrains.kotlin.plugin.compose") version "2.0.21"
     id("maven-publish")
 }
 
 group = "com.sheshadhree"
-version = "1.0.2"
+version = "1.0.3"
 
 android {
     namespace = "com.sheshu.fluenticons"
@@ -45,7 +46,6 @@ android {
 }
 
 dependencies {
-    compileOnly("org.jetbrains.kotlin:kotlin-stdlib:2.0.21")
     implementation("androidx.core:core-ktx:1.17.0")
     implementation("androidx.appcompat:appcompat:1.7.1")
     implementation(platform("androidx.compose:compose-bom:2025.09.00"))
@@ -73,7 +73,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.sheshadhree"
                 artifactId = "fluent-icons"
-                version = "1.0.2"
+                version = "1.0.3"
             }
         }
     }
